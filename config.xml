@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.kasahorow.www" version="0.9.1">
   <name>kasahorow</name>
   <description>
-	Learn something true. Every day.
+	Learn something true. Every day!
 
 kasahorow means "many languages" in Akan. When we were kids we loved to learn about the world. But we soon ran out of new things to learn that made us feel cosmopolitan in our languages. So now that we are adults, we are bringing cosmopolitanism to our languages. 
 
@@ -24,9 +24,7 @@ Learn something true everyday in Akan, Ga-Dangme, Gbe, Gikuyu, Hausa, Igbo, Ingl
   <preference name="auto-hide-splash-screen" value="true"/>
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
-  <!--<preference name="android-installLocation" value="auto"/>!-->
-  <gap:plugin name="org.apache.cordova.device-orientation"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
+  
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
