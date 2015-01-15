@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<!-- This page is the logo page, which is appear at the first time when the app start working -->
+	<title>logo</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		
+		<!-- centering the page -->
+		<style>
+			img{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -32px; /* Half the height */
+				margin-left: -181px; /* Half the width */
+			}
+			 
+		</style>
+		
+	</head>
+	<body>
+		<!-- Start of the page -->
+		<div id="main">
+			<a href="#" onclick="window.open('list.html', '_self');"><img class= "center" src="kasahorow_logo.png" alt="Logo" height="64" width="362"></a>	
+		</div>
+		
+
+	</body>
+</html>
+
+<script>
+
+setTimeout(move, 5000);
+function move(){
+	window.open('list.html', '_self');
+}
+</script>
